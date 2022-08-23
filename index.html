@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Oswald:wght@300&family=Source+Sans+Pro:ital@1&family=Uchen&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="inner-div">
+            <h2 class="question">Question comes here</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="ans1" class="answer">
+                    <label for="ans1" id="option1">Answer Options</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <label for="ans1" id="option2">Answer Options</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label for="ans1" id="option3">Answer Options</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans4" class="answer">
+                    <label for="ans1" id="option4">Answer Options</label>
+                </li>
+            </ul>
+            <button id="submit">Submit</button>
+            <div id="showScore" class="scoreArea">
+
+            </div>
+
+        </div>
+
+    </div>
+    <button onclick="display()" id="btun">start again</button>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
